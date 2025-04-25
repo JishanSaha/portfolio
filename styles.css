@@ -8,9 +8,6 @@ body {
 header {
   background: linear-gradient(to right, #1a1a1a, #333333);
   padding: 20px 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
 
 nav ul {
@@ -69,14 +66,6 @@ section h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   color: #ff416c;
-}
-
-section p {
-  font-size: 1.1rem;
-  max-width: 800px;
-  margin: 10px auto;
-  line-height: 1.6;
-  color: #ddd;
 }
 
 .project-card {
@@ -147,7 +136,6 @@ form button:hover {
   background: #ff4b2b;
 }
 
-/* Social Section */
 #socials {
   padding: 60px 20px;
   text-align: center;
